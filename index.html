@@ -1,1 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Modal window</title>
+  </head>
+  <body>
+    <button class="show-modal">Show modal 1</button>
+    <button class="show-modal">Show modal 2</button>
+    <button class="show-modal">Show modal 3</button>
 
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h1>I'm a modal window 😍</h1>
+      <p>
+        A modal (also called a modal window or lightbox) is a web page element
+        that displays in front of and deactivates all other page content. To
+        return to the main content, the user must engage with the modal by
+        completing an action or by closing it. What is the difference between
+        popup and modal? Modals, like pop-ups, are components that pop up on a
+        user's screen. The key difference, however, is that the user would have
+        initiated the action as part of their journey. Modals are used for
+        specific workflows such as adding users, deleting content, sharing
+        content, adding content, and more.
+      </p>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
